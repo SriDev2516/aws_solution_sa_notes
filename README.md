@@ -14,6 +14,7 @@
     - [ElastiCache](1-aws-fundamentals/elasticache.md)
     - [Amazon S3](1-aws-fundamentals/s3.md)
     - [Route 53](1-aws-fundamentals/route53.md)
+    - [User Data](1-aws-fundamentals/userdata.md)
 2. Deep Dive
     - [Advanced S3](2-deep-dive/advanced-s3.md)
     - [AWS CLI, SDK, IAM Roles and Policies](2-deep-dive/cli.md)
@@ -95,10 +96,3 @@ It validates an examinee's ability to:
 ## Credits
 
 - These notes are based on the Ultimate [AWS Certified Solutions Architect Associate 2021](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) course by Stephane Maarek
-
-## My other AWS Certification Notes
-
-- [AWS Certified Developer – Associate (DVA-C01)](https://github.com/Ernyoke/certified-aws-developer-associate-notes)
-- [AWS Certified SysOps – Associate (SOA-C01)](https://github.com/Ernyoke/certified-aws-sysops-associate)
-- [AWS Certified DevOps Engineer – Professional (DOP-C01)](https://github.com/Ernyoke/certified-aws-devops-professional)
-- [AWS Certified Solutions Architect – Professional (SAP-C01)](https://github.com/Ernyoke/certified-aws-solutions-architect-professional)

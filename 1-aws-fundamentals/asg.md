@@ -12,7 +12,7 @@
 
 - Launch configuration - consists of:
     - AMI + Instance Type
-    - EC2 [User Data](1-aws-fundamentals/userdata.md)
+    - EC2 [User Data](userdata.md)
     - EBS Volumes
     - Security Groups
     - SSH Key Pair
@@ -49,7 +49,7 @@
 ## ASG Summary
 
 - Scaling policies can be on CPU, Network, etc. and can even be based on custom metrics or based on a schedule
-- ASGs can use launch configurations or [launch templates](1-aws-fundamentals/launchtemplated.md) (newer version)
+- ASGs can use launch configurations or [launch templates](launchtemplates.md) (newer version)
     - Launch configurations allow to specify one instance type
     - Launch templates allow to use a spot fleet of instances
 - To update an ASG, we must provide a new launch configuration/template. The underlying EC2 instances will be replaced over time
