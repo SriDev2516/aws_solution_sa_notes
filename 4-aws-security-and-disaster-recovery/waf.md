@@ -13,7 +13,6 @@
 ### WAF - Fixed IP while using WAF with a Load Balancer:
 ![WAF- Fixed IP while using WAF with a Application load balance](images/WAFWithGlobalAccelerator.PNG)
 
-- 
 
 ## AWS Firewall Manager
 
@@ -21,3 +20,7 @@
 - We define a common set of security rules in Firewall Manager. These rules can contain WAF rules
 - Firewall manager can also manage AWS Shield Advanced
 - It can also manage Security Groups for EC2 and ENI resources in VPC
+
+## WAF vs. Firewall Manager vs. Sheild
+
+![WAFFirewallManagerSheild](images/WAFFirewallManagerSheild.PNG)

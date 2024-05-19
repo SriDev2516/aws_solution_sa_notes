@@ -48,6 +48,7 @@
     - [CloudHSM](4-aws-security-and-disaster-recovery/cloudhsm.md)
     - [Shield](4-aws-security-and-disaster-recovery/shield.md)
     - [WAF - Web Application Firewall](4-aws-security-and-disaster-recovery/waf.md)
+    - [Amazon GuardDuty](4-aws-security-and-disaster-recovery/amazon-guard-duty.md)
     - [Shared Responsibility Model](4-aws-security-and-disaster-recovery/shared-responsibility-model.md)
     - [Disaster Recovery](4-aws-security-and-disaster-recovery/disaster-recovery.md)
     - [DMS - Database Migration Tool](4-aws-security-and-disaster-recovery/dms.md)

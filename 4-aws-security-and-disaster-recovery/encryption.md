@@ -1,6 +1,6 @@
 # Encryption
 
-## Encryption in flight (SSL)
+## Encryption in flight (TLS/SSL)
 
 - End-to-end encryption: data is encrypted before being sent and decrypted after is received
 - Only the sender and the receiver should be able to decrypt/encrypt the messages
