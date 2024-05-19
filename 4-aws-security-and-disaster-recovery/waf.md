@@ -8,6 +8,12 @@
     - Size constraint
     - Geo-match, block certain countries
     - Rate-based rules, for DDoS protection
+- It does not support Network Load Balancers
+
+### WAF - Fixed IP while using WAF with a Load Balancer:
+![WAF- Fixed IP while using WAF with a Application load balance](WAFWithGlobalAccelerator.PNG)
+
+- 
 
 ## AWS Firewall Manager
 
