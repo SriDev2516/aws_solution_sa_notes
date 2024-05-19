@@ -11,7 +11,7 @@
 - It does not support Network Load Balancers
 
 ### WAF - Fixed IP while using WAF with a Load Balancer:
-![WAF- Fixed IP while using WAF with a Application load balance](WAFWithGlobalAccelerator.PNG)
+![WAF- Fixed IP while using WAF with a Application load balance](images/WAFWithGlobalAccelerator.PNG)
 
 - 
 
