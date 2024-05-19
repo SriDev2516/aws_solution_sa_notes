@@ -64,6 +64,14 @@
 - If the visibility timeout it too short, we may end up processing the same message twice
 - Best practice: the visibility timeout should be set to something appropriate. The consumer must be implemented in a way to use the ChangeVisibility API
 
+## Short vs Long Polling
+
+| Short                                                   | Long                                               |
+|---------------------------------------------------------|----------------------------------------------------|
+| Immediate Response                                      | Waits for messages or until the timeout is reached |
+| More API calls, potentially more empty responses.       | Fewer API calls, reduces empty responses.          |
+
+
 ## Dead Letter Queues
 
 - If a consumer fails to process a message within the visibility timeout, the messages goes back to the queue. This can happen multiple times.

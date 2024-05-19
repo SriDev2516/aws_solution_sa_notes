@@ -39,6 +39,12 @@
 - AWS Policy generator: https://awspolicygen.s3.amazonaws.com/policygen.html
 - AWS Policy simulator: https://policysim.aws.amazon.com/
 
+## IAM Group
+
+- An IAM group is a collection of IAM users.
+- You can use groups to specify permissions for a collection of users, which can make 
+  those permissions easier to manage for those users.
+
 ## EC2 Instance Metadata
 
 - It allows EC2 instance to "lear about themselves" without using an IAM Role

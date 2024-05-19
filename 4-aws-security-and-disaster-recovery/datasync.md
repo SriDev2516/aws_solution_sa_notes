@@ -6,6 +6,11 @@
 - Replication tasks can be scheduled hourly, daily or weekly
 - We can leverage the DataSync agent to connect to our systems
 
+### Important::
+-   AWS recommends that you should use AWS DataSync to migrate existing data to Amazon 
+    S3, and subsequently use the **File Gateway configuration** of AWS Storage Gateway to retain access to the migrated data and for ongoing updates from your on-premises file-bases applications. 
+
+
 ## Transferring large amount of data to AWS
 
 - Problem: transfer 200TB of data in the cloud with a 100 Mbps internet connection.

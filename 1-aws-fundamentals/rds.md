@@ -50,6 +50,8 @@
     - In AWS there is network cost if data goes from one AZ to another
     - In case of cross AZ replication, additional costs may incur because of network traffic
     - To reduce costs, we could have the read replicas in the same AZ
+- For replication to operate effectively, each read replica should have the same amount of compute and storage resources as 
+  the source database instance. If you scale the source database instance, also scale the read replicas.
 
 ## RDS Multi AZ (Disaster Recovery)
 
@@ -58,6 +60,17 @@
 - In case of the main database goes down, the traffic is automatically re-routed to the failover database
 - Multi AZ is not used for scaling
 - The read replicas can be set up as Multi AZ for Disaster Recovery
+
+### Downtime during Amazon RDS maintainence
+
+- Upgrades to the **database engine level** require downtime. Even if your Amazon RDS DB instance uses a Multi-AZ deployment, 
+  both the primary and standby DB instances are upgraded at the same time. 
+    - This causes downtime until the upgrade is complete, and the duration of the downtime varies based on the size of your   
+      database instance.
+- Amazon RDS applies operating system updates by following these steps:
+    - Perform maintenance on the standby.
+    - Promote the standby to primary.
+    - Perform maintenance on the old primary, which becomes the new standby.
 
 ## RDS Security
 

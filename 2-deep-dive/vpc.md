@@ -221,6 +221,12 @@
         - Capacity can be added or removed on demand
 - Lead times are often longer than 1 month
 
+### Direct Connect Resiliency
+
+- Maximum resilience is achieved by separate connections terminating on separate devices in more than one location. 
+-  It is important to understand that AWS Managed VPN supports up to 1.25 Gbps throughput per VPN tunnel and does not support 
+   Equal Cost Multi-Path (ECMP) for egress data path in the case of multiple AWS Managed VPN tunnels terminating on the same VGW. Thus, AWS does not recommend customers use AWS Managed VPN as a backup for AWS Direct Connect connections with speeds greater than *1 Gbps*.
+
 ### Direct Connect Encryption
 
 - Data in transit is not encrypted but is private

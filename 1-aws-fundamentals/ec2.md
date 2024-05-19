@@ -282,3 +282,13 @@
     - Cluster
     - Spread
     - Partition
+
+
+## EC2 DeleteOnTermination
+
+- By default, the **DeleteOnTermination** attribute is set to True for the root volume and is set to False for all other   
+  volume types.
+- If the instance is already running, you can set **DeleteOnTermination** to False using the command line.
+- It is not possible to update this attribute of a running instance from the AWS console.
+- The **DisableApiTermination** attribute controls whether the instance can be terminated using the console, CLI, or API.  
+  This cannot be used to control the delete status for the EBS volume when the instance terminates.

@@ -148,6 +148,11 @@
 - S3 Transfer Acceleration: it can increase the transfer speed in case of uploads by using an AWS edge location. Compatible with multi-part upload.
 - S3 Byte-Range Fetches: can be used to speed up downloads by parallelizing GET requests. Can be used to retrieve only a part of the file
 
+### Difference between S3 Byte-Range Fetch, S3 Select and S3 Select Byte Range Fetch
+
+-  S3 Byte Range Fetch is about retrieving specific parts of an object, S3 Select is 
+    about filtering object content with SQL, and S3 Select Byte Range Fetch combines both to query specific parts of an object efficiently.
+
 ## S3 Select and Glacier Select
 
 - Can be used to retrieve less data using SQL queries to do server side filtering

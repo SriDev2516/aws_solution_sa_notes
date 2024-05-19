@@ -114,7 +114,7 @@
 
 - Some instances do not come with a root EBS volume
 - Instead, they come with an **instance store** (ephemeral storage)
-- An instance store is  a physically attached to the machine (EBS is a network drive)
+- An instance store is  a **physically attached** to the machine (EBS is a network drive)
 - Pros of instance stores:
     - Better I/O performance
     - Good for buffer, cache, scratch data, temporary content
@@ -130,6 +130,14 @@
     - A block storage (just like EBS)
     - Can not be increased in size
     - An ephemeral storage (risk of data loss if hardware fails)
+
+### Additional Information About Instance Stores
+
+- You can specify instance store volumes for an instance only when you launch it.
+- You can't detach an instance store volume from one instance and attach it to a different instance. 
+- The data in an instance store persists only during the lifetime of its associated instance. If an instance reboots 
+   (intentionally or unintentionally), data in the instance store persists.
+- If you create an Amazon Machine Image (AMI) from an instance, the data on its instance store volumes isn't preserved
 
 ## EBS RAID Options
 
