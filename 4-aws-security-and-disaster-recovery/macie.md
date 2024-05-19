@@ -5,4 +5,4 @@
 
 ![Difference Between GuardDuty, Macie, Inspector, Detective](images/DifferenceMacieInspectorAndDetective.PNG)
 
-![Credit](https://www.linkedin.com/posts/akusa_comparison-of-amazon-guardduty-amazon-macie-activity-7132409649684729856-FHKf/)
+[Credit](https://www.linkedin.com/posts/akusa_comparison-of-amazon-guardduty-amazon-macie-activity-7132409649684729856-FHKf/)
