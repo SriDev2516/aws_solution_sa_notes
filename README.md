@@ -64,36 +64,6 @@
     - [Well Architectured Framework](6-whitepapers/well-architectured-framework.md)
     - [AWS Truster Advisor](6-whitepapers/trusted-advisor.md)
 
-## Exam Description
-
-The AWS Certified Solutions Architect - Associate (SAA-C02) examination is intended for individuals who perform in a solutions architect role. This exam validates an examinee's ability to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies.
-
-It validates an examinee's ability to:
-- Define a solution using architectural design principles based on customer requirements.
-- Provide implementation guidance based on best practices to an organization throughout the lifecycle of a project.
-
-## Preparation
-
-- Official Exam Guide: https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf
-
-- The exam may contain two types of questions:
-    - Multiple choice
-    - Multiple response
-
-- Minimum passing score: 720/1000
-- Number of questions: 65
-- Time: 130 minutes to complete the exam (with a possibility to request 30 minutes extra for non-native english speakers)
-
-## Exam Content
-
-| **Domain**                                   | **% of Examination** |
-|----------------------------------------------|----------------------|
-| Design Resilient Architectures               | 30%                  |
-| Design High-Performing Architectures         | 28%                  |
-| Design Secure Applications and Architectures | 24%                  |
-| Design Cost-Optimized Architectures          | 18%                  |
-| **Total**                                    | **100%**             |
-
 ## Credits
 
 - These notes are based on the Ultimate [AWS Certified Solutions Architect Associate 2021](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) course by Stephane Maarek
