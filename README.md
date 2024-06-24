@@ -66,4 +66,4 @@
 
 ## Credits
 
-- These notes are based on the Ultimate [AWS Certified Solutions Architect Associate 2021](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) course by Stephane Maarek
+- These notes are based on the Ultimate [AWS Certified Solutions Architect Associate](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) course by Stephane Maarek
